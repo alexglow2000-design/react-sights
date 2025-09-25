@@ -1,0 +1,216 @@
+.title {
+    margin-top: 104px;
+    font-size: 64px;
+    color: rgba(238, 238, 238, 1);
+}
+
+.container {
+
+}
+
+.placeMap {
+    background-color: rgba(23, 23, 28, 1);
+    border-radius: 50px;
+}
+
+.containerMap {
+    position: relative;
+    z-index: 1;
+}
+
+.oktybrsky {
+    position: absolute;
+    z-index: 2;
+}
+
+.sovetskiy {
+    position: absolute;
+    z-index: 2;
+}
+
+.jeleznodorojni {
+    position: absolute;
+    z-index: 2;
+}
+
+.leninskiy {
+    position: absolute;
+    z-index: 2;
+}
+
+.kirovskiy {
+    position: absolute;
+    z-index: 2;
+}
+
+
+.proletarskiy {
+    position: absolute;
+    z-index: 2;
+}
+
+.pervomayskiy {
+    position: absolute;
+    z-index: 2;
+}
+
+.voroshilovskiy {
+    position: absolute;
+    z-index: 2;
+}
+
+.place {
+    position: absolute;
+    z-index: 1;
+}
+
+.containerMap div {
+    transition: all 0.3s ease;
+}
+
+.active {
+    transform: translateY(-10px);
+    filter: none;
+    z-index: 10;
+}
+
+.inactive {
+    filter: grayscale(100%) brightness(70%);
+    opacity: 0.6;
+}
+
+@media (min-width: 1024px) {
+    .title {
+        margin-top: 104px;
+        font-size: 40px;
+    }
+
+    .container {
+        width: 944px;
+    }
+
+    .placeMap {
+        margin-top: 64px;
+        width: 944px;
+        height: 747px;
+    }
+
+    .containerMap {
+        width: 804px;
+        height: 734px;
+    }
+
+    .oktybrsky {
+        top: 76px;
+        left: 578px;
+    }
+
+    .sovetskiy {
+        top: 380px;
+        left: 36px;
+    }
+
+    .jeleznodorojni {
+        top: 458px;
+        left: 341px;
+    }
+
+    .leninskiy {
+        top: 451px;
+        left: 672px;
+    }
+
+    .kirovskiy {
+        top: 499px;
+        left: 807px;
+    }
+
+
+    .proletarskiy {
+        top: 507px;
+        left: 870px;
+    }
+
+    .pervomayskiy {
+        top: 194px;
+        left: 872px;
+    }
+
+    .voroshilovskiy {
+        top: 52px;
+        left: 778px;
+    }
+
+    .place {
+        top: 54px;
+        left: 28px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title {
+        margin-top: 104px;
+        font-size: 64px;
+    }
+
+    .container {
+        width: 1360px;
+    }
+
+    .placeMap {
+        margin-top: 64px;
+        width: 1278px;
+        height: 854px;
+    }
+
+    .containerMap {
+        width: 1278px;
+        height: 854px;
+    }
+
+    .oktybrsky {
+        top: 76px;
+        left: 578px;
+    }
+
+    .sovetskiy {
+        top: 380px;
+        left: 36px;
+    }
+
+    .jeleznodorojni {
+        top: 458px;
+        left: 341px;
+    }
+
+    .leninskiy {
+        top: 451px;
+        left: 672px;
+    }
+
+    .kirovskiy {
+        top: 499px;
+        left: 807px;
+    }
+
+
+    .proletarskiy {
+        top: 507px;
+        left: 870px;
+    }
+
+    .pervomayskiy {
+        top: 194px;
+        left: 872px;
+    }
+
+    .voroshilovskiy {
+        top: 52px;
+        left: 778px;
+    }
+
+    .place {
+        top: 54px;
+        left: 28px;
+    }
+}

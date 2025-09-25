@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .main{
+        width: 1024px;
+    }
+
+    .info{
+        margin-top: 95px;
+        margin-bottom: 95px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .main{
+        width: 1440px;
+    }
+
+    .info{
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+
+}
