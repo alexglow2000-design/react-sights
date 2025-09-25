@@ -48,6 +48,13 @@
 }
 
 
+.locationPlace{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+
 @media (min-width: 1024px) {
     
     .sightList {
@@ -86,6 +93,10 @@
     .textRate {
         font-size: 16px;
     }
+
+    .locationPlace{
+        width: 210px;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -116,7 +127,7 @@
 
     .containerColumn {
         gap: 20px;
-        width: 336px;
+        width: 436px;
     }
 
     .img {
@@ -126,4 +137,53 @@
     .textRate {
         font-size: 16px;
     }
+
+    .locationPlace{
+        width: 210px;
+    }
+}
+
+@media (min-width: 440px)   and (max-width: 1024px)  {
+
+    .sightList {
+        padding-top: 24px;
+        max-height: 177px;
+        margin-bottom: 24px;
+    }
+
+    .sightItem {
+        padding-bottom: 24px;
+        border-bottom: 4px solid white;
+    }
+
+    .textSight {
+        font-size: 20px;
+    }
+
+    .rateBox {
+        width: 0px;
+        height: 0px;
+        color: transparent;
+        z-index: -30;
+    }
+
+    .containerColumn {
+        gap: 5px;
+        width: 210px;
+    }
+
+    .img {
+        
+        border-radius: 25px;
+    }
+
+    .textRate {
+        font-size: 16px;
+        z-index: -30;
+    }
+
+    .locationPlace{
+        z-index: -30;
+    }
+
 }

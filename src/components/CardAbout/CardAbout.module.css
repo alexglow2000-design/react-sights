@@ -75,3 +75,32 @@
     }
 
 }
+
+@media (min-width: 440px)   and (max-width: 1024px)  {
+    
+    .card {
+        border-radius: 50px;
+        width: 400px;
+        height: 155px;
+    }
+
+    .img {
+        width: 148px;
+        height: 155px;
+        border-radius: 50px;
+    }
+
+    .container {
+        padding-inline: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+}

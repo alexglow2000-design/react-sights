@@ -137,3 +137,56 @@
         padding-bottom: 9.5px;
     }
 }
+
+@media (min-width: 440px)  and (max-width: 1024px) {
+    .title {
+        font-size: 69px;
+        padding-bottom: 64px;
+    }
+
+    .profession {
+        font-size: 26px;
+    }
+
+    .name {
+        height: 40px;
+        border-radius: 30px;
+        padding: 10px;
+        font-size: 26px;
+    }
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .containerCreator {
+        width: 400px;
+        height: 218px;
+        gap: 40px;
+    }
+
+    .footerTop {
+        width: 400px;
+        padding-top: 104px;
+        padding-bottom: 46px;
+    }
+
+    .img {
+        width: 400px;
+        height: 116px;
+        border-radius: 25px;
+    }
+
+    .policies {
+        font-size: 15px;
+    }
+
+    .footerButtom {
+        width: 100%;
+        padding-top: 9.5px;
+        padding-bottom: 9.5px;
+    }
+}

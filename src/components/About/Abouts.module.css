@@ -45,3 +45,21 @@
         width: 1360px;
     }
 }
+
+@media (min-width: 440px)  and (max-width: 1024px) {
+    .title {
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 64px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .container {
+        margin-top: 56px;
+        width: 400px;
+    }
+
+}

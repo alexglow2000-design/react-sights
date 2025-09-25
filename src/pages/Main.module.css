@@ -18,3 +18,10 @@
     }
 
 }
+
+@media (min-width: 440px)  and (max-width: 1024px)  {
+
+    .main{
+        width: 400px;
+    }
+}

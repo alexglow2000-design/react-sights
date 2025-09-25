@@ -9,16 +9,16 @@ import Pages from '../Pages/Pages'
 const SightList = memo(() => {
 
   const [searchParams] = useSearchParams()
-  const initialLocation = searchParams.get('location') || 'Ростов-на-Дону'
+  const initialLocation = searchParams.get('location') || 'Все'
   const [sights, setSights] = useState<ISight[]>([])
   const [pages, setPages] = useState(0)
   const [loading, setLoading] = useState<boolean>(true)
   const [error, setError] = useState<string | null>(null)
   const [location, setLocation] = useState(initialLocation)
   const [showDropdown, setShowDropdown] = useState(false)
-  const limit = 1
+  const limit = 5
   const [currentPage, setCurrentPage] = useState(1)
-  const locations = ['Ростов-на-Дону', 'Москва', 'Санкт-Петербург', 'Казань']
+  const locations = ['Все', 'Железнодорожный', 'Пролетарский', 'Советский', 'Кировский', 'Ленинский']
   
 
   const changePage = (number: number) => {
@@ -32,7 +32,12 @@ const SightList = memo(() => {
       try {
         setLoading(true)
         setError(null)
-        const sightsData = await getAll(location, limit, currentPage)
+        let sightsData;
+        if(location !== 'Все'){
+          sightsData = await getAll(location, limit, currentPage)
+        } else {
+          sightsData = await getAll()
+        }
         setSights(sightsData.rows)
         setPages(sightsData.count)
       } catch (err: any) {
@@ -90,7 +95,7 @@ const SightList = memo(() => {
         ))}
       </div>
       <div className={styles.footer}>
-        <Pages count={pages} limit={1} changePage={changePage} currentPage={currentPage} />
+        <Pages count={pages} limit={limit} changePage={changePage} currentPage={currentPage} />
       </div>
     </div>
   )

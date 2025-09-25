@@ -18,3 +18,10 @@
         gap: 20px;
     }
 }
+
+@media (min-width: 440px)   and (max-width: 1024px)  {
+    .container {
+        width: 400px;
+        gap: 24px;
+    }
+}

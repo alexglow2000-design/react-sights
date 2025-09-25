@@ -51,7 +51,7 @@ const Sight = () => {
         </div>
       </div>
       <div className={styles.firstContainer}>
-        <img className={styles.blockImg} width={670} height={900} alt={sight?.title} src={import.meta.env.VITE_APP_API_URL + sight?.img} />
+        <img className={styles.blockImg} width={670} height={900} alt={sight?.title} src={'https://rostov-on-map-api.onrender.com/static/' + sight?.img} />
         <div className={styles.description}>
           <div className={styles.descriptionCenter}>
             <div>

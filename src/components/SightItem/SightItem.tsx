@@ -20,7 +20,7 @@ const SightItem: FC<ISightItemProps> = ({id, img, title, rate, location}) => {
       <div className={styles.sightItem}>
         <div className={styles.containerColumn}>
           <div className={styles.centerIMG}>
-            <img className={styles.img} width={197} height={153} src={import.meta.env.VITE_APP_API_URL + img} alt={title}/>
+            <img className={styles.img} width={197} height={153} src={'https://rostov-on-map-api.onrender.com/static/' + img} alt={title}/>
           </div>
           <div className={styles.textGroup}>
             <p className={styles.textSight}>{title}</p>
@@ -31,7 +31,7 @@ const SightItem: FC<ISightItemProps> = ({id, img, title, rate, location}) => {
             <p className={styles.textRate}>{rate}/5</p>
           </div>
         </div>
-        <div>
+        <div className={styles.locationPlace}>
           <p className={styles.textSight}>{location}</p>
         </div>
       </div>

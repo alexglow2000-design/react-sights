@@ -78,7 +78,7 @@
 @media (min-width: 1024px) {
 
     .sightContaier{
-        width: 944px;
+        width: 440px;
     }
 
     .goBack {
@@ -268,5 +268,113 @@
 
     .placeObject{
         width: 376px;
+    }
+}
+
+
+
+@media (min-width: 440px)   and (max-width: 1024px)  {
+
+
+    .sightContaier{
+        width: 440px;
+    }
+
+    .goBack {
+        margin-top: 76px;
+        gap: 2px;
+        width: 76px;
+        height: 18px;
+    }
+
+    .textGoBack {
+        font-size: 15px;
+    }
+
+    .blockImg {
+        width: 400px;
+        height: 463px;
+        border-radius: 50px;
+    }
+
+    .firstContainer {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 47px;
+        gap: 32px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .location {
+        font-size: 15px;
+    }
+
+    .description {
+        gap: 15px;
+        width: 400px;
+    }
+
+    .descriptionCenter {
+        gap: 15px;
+    }
+
+    .textDescription {
+        width: 400px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .secondContainer {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding-top: 30px;
+        gap: 24px
+    }
+
+    .rateBox {
+        width: 220px;
+        height: 165px;
+    }
+
+    .rate {
+        font-size: 150px;
+    }
+
+    .maxRate {
+        font-size: 24px;
+    }
+
+    .rateHeader {
+        font-size: 24px;
+    }
+    
+    .textDescription{
+        width: 400px;
+        height: 196px;
+    }
+
+    .textDescription{
+        width: 400px;
+        height: 196px;
+    }
+
+    .rateContainer{
+        position: relative;
+        margin-top: 20px;
+        width: 313px;
+        height: 160px;
+    }
+
+    .placeObject{
+        position: absolute;
+        z-index: -30;
+        width: 500px;
     }
 }

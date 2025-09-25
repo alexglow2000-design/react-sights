@@ -5,7 +5,7 @@ function App() {
   
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/rostov-on-map">
       <Router/>
     </BrowserRouter>
     </>

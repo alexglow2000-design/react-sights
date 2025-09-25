@@ -24,3 +24,7 @@
 .forPoiner{
     cursor: pointer;
 }
+
+@media (min-width: 440px) {
+
+}

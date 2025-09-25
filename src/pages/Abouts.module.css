@@ -28,3 +28,16 @@
     }
 
 }
+
+@media (min-width: 440px)   and (max-width: 1024px)  {
+
+
+    .main{
+        width: 440px;
+    }
+
+    .info{
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+}

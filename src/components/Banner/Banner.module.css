@@ -176,3 +176,71 @@
     }
 
 }
+
+@media (min-width: 440px)  and (max-width: 1024px) {
+    .banner {
+        width: 400px;
+        height: 136;
+    }
+
+    .bannerSM {
+        width: 400px;
+        height: 136;
+    }
+
+    .imgBlock {
+        width: 400px;
+        height: 136;
+    }
+
+    .imgBlockSM {
+        width: 400px;
+        height: 136;
+    }
+
+    .img {
+        width: 400px;
+        height: 136;
+        border-radius: 50px;
+    }
+
+    .imgSM {
+        width: 400px;
+        height: 136;
+        border-radius: 50px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 24px;
+        font-weight: 500;
+    }
+
+
+    .description {
+        z-index: -20;
+        font-size: 0px;
+    }
+
+    .button {
+        margin-top: 24px;
+
+    }
+
+    .container {
+        width: 300px;
+        height: 138px;
+        bottom: 70px;
+        left: 40px;
+    }
+
+    .containerSM {
+        width: 400px;
+        height: 138px;
+        bottom: 250px;
+        top: 30%;
+        left: 20%;
+    }
+
+
+}
