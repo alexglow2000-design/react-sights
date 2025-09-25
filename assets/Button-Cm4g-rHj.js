@@ -1,0 +1,1 @@
+import{r,j as u}from"./index-DvGZINzj.js";const e="_button_1vppf_1",a={button:e},p=r.memo(({children:t,type:o,onClick:s,disabled:n})=>u.jsx("button",{type:o,disabled:n,onClick:s,className:a.button,children:t}));export{p as B};
